@@ -47,7 +47,6 @@ public class US1001_amazonStepdefinitons {
         Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
     }
 
-
     @And("kullanici iphone icin arama yapar")
     public void kullaniciIphoneIcinAramaYapar() {
         amazonPage.aramaKutusu.sendKeys("iphone"+ Keys.ENTER);
@@ -73,8 +72,6 @@ public class US1001_amazonStepdefinitons {
         Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
 
     }
-
-
 
     @And("kullanici url'in {string} icerdigini test eder")
     public void kullaniciUrlInIcerdiginiTestEder(String istenenKelime) {

@@ -8,6 +8,7 @@ import utilities.Driver;
 
 public class HotelmycampPage {
     public HotelmycampPage(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
     @FindBy(xpath="//a[text()='Log in']")
@@ -20,7 +21,8 @@ public class HotelmycampPage {
     public WebElement password;
 
     @FindBy(id = "btnSubmit")
-    public WebElement btnSubmit;
+    public WebElement loginButtonu2;
+
     @FindBy (xpath = "//span[@class='username username-hide-on-mobile']")
     public WebElement girildiYaziElementi;
 
