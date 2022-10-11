@@ -15,4 +15,5 @@ public class HerroKuappPage {
 
     @FindBy(xpath = "//button[@class='added-manually']")
     public WebElement deleteButton;
+
 }

@@ -1,7 +1,7 @@
 Feature: US1010 herrokuapp Delete testi
 
   Scenario: TC15 herrokuapp'dan delete buttonu calismali
-    Given kullanici "herroKuappUrl" anasayfasinda
+    Given kullanici "herrokuappUrl" anasayfasinda
     And kullanici Add Element butona basar
     And kullanici Delete butonu gorunur oluncaya kadar bekler
     Then kullanici Delete butonunun gorunur oldugunu test eder
