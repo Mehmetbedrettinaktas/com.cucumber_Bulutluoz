@@ -17,4 +17,5 @@ utilities\Driver.class
 stepdefinitions\GuruStepdefinitions.class
 pages\SearchProductPage.class
 stepdefinitions\US1002_HmcstepDefinitons.class
+runners\TestRunner2.class
 utilities\ConfigReader.class

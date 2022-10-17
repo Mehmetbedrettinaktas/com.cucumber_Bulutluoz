@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@wip",  // iki TC'zi birlikte calistirmak icin  "@nutella or java"
-        dryRun = false
+        tags = "@aut",  // iki TC'zi birlikte calistirmak icin  "@nutella or java"
+        dryRun = true
 )
 public class TestRunner {
     /*
